@@ -1,0 +1,16 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/CourseFormTable.js": "/CourseFormTable.js",
+    "/CoursesFormAdd.js": "/CoursesFormAdd.js",
+    "/CoursesFormEdit.js": "/CoursesFormEdit.js",
+    "/CoursesFormView.js": "/CoursesFormView.js",
+    "/DashboardFormAdd.js": "/DashboardFormAdd.js",
+    "/DashboardFormEdit.js": "/DashboardFormEdit.js",
+    "/DashboardFormTable.js": "/DashboardFormTable.js",
+    "/DashboardFormView.js": "/DashboardFormView.js",
+    "/DashboardAdd.js": "/DashboardAdd.js",
+    "/DashboardEdit.js": "/DashboardEdit.js",
+    "/DashboardTable.js": "/DashboardTable.js",
+    "/DashboardView.js": "/DashboardView.js"
+}
