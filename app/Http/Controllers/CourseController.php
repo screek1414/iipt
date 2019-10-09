@@ -45,6 +45,7 @@ class CourseController extends Controller
     {
         return response()->json([
             'is_admin' => Permission::isAdmin(),
+            'permission' => auth()->user()->can(),
         ]);
     }
 

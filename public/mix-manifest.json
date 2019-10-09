@@ -8,9 +8,5 @@
     "/DashboardFormAdd.js": "/DashboardFormAdd.js",
     "/DashboardFormEdit.js": "/DashboardFormEdit.js",
     "/DashboardFormTable.js": "/DashboardFormTable.js",
-    "/DashboardFormView.js": "/DashboardFormView.js",
-    "/DashboardAdd.js": "/DashboardAdd.js",
-    "/DashboardEdit.js": "/DashboardEdit.js",
-    "/DashboardTable.js": "/DashboardTable.js",
-    "/DashboardView.js": "/DashboardView.js"
+    "/DashboardFormView.js": "/DashboardFormView.js"
 }
