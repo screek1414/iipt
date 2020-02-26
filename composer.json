@@ -8,23 +8,19 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^7.2.10",
+        "php": "^7.2",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^6.0",
-        "laravel/tinker": "^1.0",
-        "spatie/laravel-permission": "^3.0"
+        "laravel/tinker": "^1.0"
     },
     "require-dev": {
         "facade/ignition": "^1.4",
         "fzaninotto/faker": "^1.4",
-        "laravel/ui": "^1.0",
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^3.0",
+        "phpunit/phpunit": "^8.0"
     },
     "config": {
-        "platform": {
-            "php": "7.2.10"
-        },
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true
@@ -60,6 +56,10 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
+        ],
+        "post-update-cmd": [
+            "php artisan clear-compiled",
+            "php artisan optimize"
         ]
     }
 }
